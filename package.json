@@ -2,9 +2,9 @@
   "name": "hash",
   "version": "1.0.0",
   "description": "A programming language hash",
-  "main": "src/hash.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node --experimental-modules src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/dky1831/hash/issues"
   },
-  "homepage": "https://github.com/dky1831/hash#readme"
+  "homepage": "https://github.com/dky1831/hash#readme",
+  "type": "modules"
 }
